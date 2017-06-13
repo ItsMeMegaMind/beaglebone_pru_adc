@@ -8,7 +8,7 @@ import time
 import array
 
 
-SLOTS = glob.glob('/sys/devices/bone_capemgr.*/slots')[0]
+SLOTS = glob.glob('/sys/devices/platform/bone_capemgr/slots')[0]
 
 
 def _is_pru_loaded():
